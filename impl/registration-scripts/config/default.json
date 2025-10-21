@@ -1,0 +1,21 @@
+{
+  "mcpGateway": {
+    "url": "http://localhost:8000",
+    "apiKey": "YOUR_API_KEY_HERE"
+  },
+  "githubServer": {
+    "name": "github-mcp-server",
+    "description": "MCP server for GitHub integration",
+    "url": "http://localhost:3000",
+    "type": "remote"
+  },
+  "ownerAgent": {
+    "name": "owner-ai-agent",
+    "description": "AI Agent for finding resource owners",
+    "url": "http://localhost:3001",
+    "type": "remote"
+  },
+  "logging": {
+    "level": "info"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "registration-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for registering Instana integration components with MCP Gateway",
+  "main": "src/index.js",
+  "scripts": {
+    "register:github": "node src/index.js register github-server",
+    "register:owner": "node src/index.js register owner-agent",
+    "register:all": "node src/index.js register all",
+    "unregister:github": "node src/index.js unregister github-server",
+    "unregister:owner": "node src/index.js unregister owner-agent",
+    "unregister:all": "node src/index.js unregister all",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "config": "^3.3.9",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+}
