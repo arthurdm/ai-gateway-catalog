@@ -1,6 +1,9 @@
-# Instana Integration for MCP Gateway
+# Instana AI gateway catalog
 
-This integration allows Instana customers to configure external remote MCP servers and A2A compatible AI Agents. It provides tools for accessing GitHub repositories and issues, as well as an AI Agent for finding resource owners and determining the best way to contact them.
+This repository hosts a catalog of **sample** assets that customers can configure in Instana's AI gateway.  
+
+* Sample MCP server: provides tools for accessing GitHub repositories and issues
+* Sample AI Agent: finding resource owners and determining the best way to contact them.
 
 ## Table of Contents
 
